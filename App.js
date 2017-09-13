@@ -40,13 +40,14 @@ export default class App extends Component {
             <Scene
               component={Authentication}
               hideNavBar={true}
-              initial={true}
+              initial={!this.state.hasToken}
               key='Authentication'
               title='Authentication'
             />
             <Scene
               component={HomePage}
               hideNavBar={true}
+              initial={this.state.hasToken}
               key='HomePage'
               title='Home Page'
             />
