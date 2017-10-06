@@ -75,7 +75,7 @@ class HomePage extends Component {
           placeholder="Type here to add!"
           onChangeText={(text) => this.setState({text})}
         />
-        <ActionButton onPress={this._addItem.bind(this)} title="Add" />
+        <ActionButton onPress={this._addItem.bind(this)} title="Søg" />
 
       </KeyboardAvoidingView>
     )
