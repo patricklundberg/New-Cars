@@ -64,7 +64,7 @@ class HomePage extends Component {
   render() {
     return (
       <KeyboardAvoidingView style={styles.listContainer} behavior="padding" >
-        <StatusBar onPress={this.userLogout.bind(this)} title="Grocery List" />
+        <StatusBar onPress={this.userLogout.bind(this)} title="New Car A/S" />
         <ListView
           dataSource={this.state.dataSource}
           renderRow={this._renderItem.bind(this)}
