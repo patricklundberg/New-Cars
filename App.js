@@ -5,15 +5,15 @@ import * as firebase from 'firebase';
 import Authentication from './components/Authentication';
 import HomePage from './components/HomePage';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAbQn5CP8cU80pFhrmmTmDw5w9SOc_QfGE",
-  authDomain: "securedbase-d861b.firebaseapp.com",
-  databaseURL: "https://securedbase-d861b.firebaseio.com",
-  projectId: "securedbase-d861b",
-  storageBucket: "securedbase-d861b.appspot.com",
-  messagingSenderId: "3497891805"
+var config = {
+  apiKey: "AIzaSyCQuRFgPxOvM4vomcOebzAdoqwX47De9x4",
+  authDomain: "my-project-1489478119694.firebaseapp.com",
+  databaseURL: "https://my-project-1489478119694.firebaseio.com",
+  projectId: "my-project-1489478119694",
+  storageBucket: "my-project-1489478119694.appspot.com",
+  messagingSenderId: "750999724433"
 };
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(config);
 console.ignoredYellowBox = [
   "Setting a timer"
 ];
