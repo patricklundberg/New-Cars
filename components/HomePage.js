@@ -70,10 +70,16 @@ class HomePage extends Component {
           renderRow={this._renderItem.bind(this)}
           enableEmptySections={true}
           style={styles.listview}/>
-        <TextInput
-          style={{height: 40}}
-          placeholder="Type here to add!"
-          onChangeText={(text) => this.setState({text})}
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
         />
         <ActionButton onPress={this._addItem.bind(this)} title="Søg" />
 
