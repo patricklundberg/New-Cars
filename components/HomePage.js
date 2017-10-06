@@ -79,8 +79,7 @@ class HomePage extends Component {
       <a href="#">Link 3</a>
     </div>
   </div>
-
-        />
+  
         <ActionButton onPress={this._addItem.bind(this)} title="Søg" />
 
       </KeyboardAvoidingView>
